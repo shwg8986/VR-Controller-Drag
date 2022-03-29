@@ -98,7 +98,7 @@ public class ObjectLog : MonoBehaviour
     {
 
 
-        string fname = "Controller_depth1.csv";
+        string fname = "Controller_Drag.csv";
         string path = Path.Combine(Application.persistentDataPath, fname);
 
         if (File.Exists(path))
